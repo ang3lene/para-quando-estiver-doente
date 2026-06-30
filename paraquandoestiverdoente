@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para quando estiver doente</title>
+
+<style>
+
+body{
+    margin:0;
+    padding:50px 20px;
+    background:#ffffff;
+    font-family:"Times New Roman", serif;
+    display:flex;
+    justify-content:center;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+h1{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+p{
+    font-size:25px;
+    line-height:1.8;
+    white-space:pre-line;
+    margin-bottom:50px;
+}
+
+.foto img{
+    width:100%;
+    max-width:500px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    margin-bottom:50px;
+}
+
+/* PLAYER */
+
+.player-card{
+    width:100%;
+    max-width:700px;
+    margin:auto;
+    background:#111;
+    border-radius:20px;
+    padding:18px;
+    display:flex;
+    align-items:center;
+    gap:18px;
+    color:white;
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+}
+
+.player-card img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+.music-info{
+    flex:1;
+    text-align:left;
+}
+
+.music-title{
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+.music-artist{
+    font-size:18px;
+    color:#cfcfcf;
+    margin-bottom:12px;
+}
+
+.player-card audio{
+    width:100%;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Para quando estiver doente.</h1>
+
+    <p>
+oiii amor!!
+
+fiz essa cartinha pq eu te amo muito e me importo com você!!
+sei que eu nao consigo ir até aí e cuidar de você agora então fiz isso pq queria deixar você beeeem alegre pq te amo muito
+fiz esse site especialmente pra você pra quando estiver doente e eu não tiver aí, você olhar ele
+eu me importo muito com você e sua saúde e nao gosto de ver você doentinha
+vê se nao toma bebida muito gelada, beba bastante água, descanse, não faça muito esforço e tome remédios, caso tenha tomado já, espere um pouco antes de tomar outro.
+eu te amo muuuuuito meu amorzinho
+eu quero muito que você melhore logo, ent toma aq uns remedinhos KKKKKKKKKKKKKK
+    </p>
+
+    <div class="foto">
+        <img src="foto.jpg" alt="Nossa foto">
+    </div>
+
+    <div class="player-card">
+
+        <img src="capa.jpeg" alt="Capa da Música">
+
+        <div class="music-info">
+
+            <div class="music-title">iloveubabe</div>
+
+            <div class="music-artist">from ang3leneaga to ang3lgiulia</div>
+
+            <audio controls>
+                <source src="us.mp3" type="audio/mpeg">
+                Seu navegador não suporta áudio.
+            </audio>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
